@@ -37,7 +37,7 @@ install_ruby() {
 
     chruby "ruby-$version"
     ruby -v
-    gem update --system
+    gem update --system -V
 
 }
 
